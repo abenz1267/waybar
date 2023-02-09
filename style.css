@@ -40,10 +40,6 @@ button {
   padding: 0 10px;
 }
 
-.modules-right {
-  padding-right: 10px;
-}
-
 #tray > .passive {
   -gtk-icon-effect: dim;
 }
@@ -86,5 +82,18 @@ button {
 #custom-spotifytitle.Paused,
 #custom-spotifyartist.Inactive,
 #custom-spotifytitle.Inactive {
+  opacity: 0.5;
+}
+
+#custom-vpn {
+  background-color: #658594;
+  opacity: 1;
+  transition-property: opacity;
+  transition-duration: 0.25s;
+  margin-left: 10px;
+  padding: 0 10px;
+}
+
+#custom-vpn.inactive {
   opacity: 0.5;
 }

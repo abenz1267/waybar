@@ -8,7 +8,7 @@
     // Choose the order of the modules
     "modules-left": ["wlr/workspaces"],
     "modules-center": ["clock"],
-    "modules-right": ["custom/spotifyartist","custom/spotifytitle","tray","pulseaudio","cpu", "memory"],
+    "modules-right": ["custom/spotifyartist","custom/spotifytitle","tray","pulseaudio","cpu", "memory", "custom/vpn"],
     "tray": {
         "icon-size": 21,
         "spacing": 10
@@ -60,5 +60,12 @@
         "on-click": "playerctl --player=spotify play-pause 2> /dev/null",
         "on-scroll-up": "playerctl --player=spotify next 2> /dev/null",
         "on-scroll-down": "playerctl --player=spotify previous 2> /dev/null"
+    },
+    "custom/vpn": {
+        "format": "VPN",
+        "interval": 1,
+        "return-type": "json",
+        "exec": "$HOME/Documents/ArchInstall/checkvpn",
+        "on-click": "$HOME/Documents/ArchInstall/vpn",
     }
 }
