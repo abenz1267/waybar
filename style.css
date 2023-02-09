@@ -27,13 +27,17 @@ button {
   margin-right: 0;
 }
 
-.modules-center,
+#clock,
 .modules-right,
 .modules-left {
   background-color: #2a2a37;
   color: #dcd7ba;
   font-weight: 500;
   border: 1px solid #1f1f28;
+}
+
+#clock {
+  padding: 0 10px;
 }
 
 .modules-center {
@@ -96,4 +100,9 @@ button {
 
 #custom-vpn.inactive {
   opacity: 0.5;
+}
+
+#custom-recording {
+  background-color: #c34043;
+  padding: 0 10px;
 }

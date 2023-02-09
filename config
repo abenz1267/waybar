@@ -7,7 +7,7 @@
     "spacing": 0, // Gaps between modules (4px)
     // Choose the order of the modules
     "modules-left": ["wlr/workspaces"],
-    "modules-center": ["clock"],
+    "modules-center": ["clock", "custom/recording"],
     "modules-right": ["custom/spotifyartist","custom/spotifytitle","tray","pulseaudio","cpu", "memory", "custom/vpn"],
     "tray": {
         "icon-size": 21,
@@ -67,5 +67,11 @@
         "return-type": "json",
         "exec": "$HOME/Documents/ArchInstall/checkvpn",
         "on-click": "$HOME/Documents/ArchInstall/vpn",
+    },
+    "custom/recording": {
+        "format": "{}",
+        "interval": 1,
+        "return-type": "json",
+        "exec": "$HOME/Documents/ArchInstall/checkrecording",
     }
 }
