@@ -66,14 +66,14 @@
         "interval": "once",
         "signal": 7,
         "return-type": "json",
-        "exec": "$HOME/Documents/ArchInstall/checkvpn",
-        "on-click": "$HOME/Documents/ArchInstall/vpn",
+        "exec": "checkvpn",
+        "on-click": "vpn",
     },
     "custom/recording": {
         "format": "{}",
         "interval": "once",
         "return-type": "json",
         "signal": 9,
-        "exec": "$HOME/Documents/ArchInstall/checkrecording",
+        "exec": "checkrecording",
     },
 }
