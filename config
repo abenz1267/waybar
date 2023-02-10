@@ -48,7 +48,7 @@
         "max-length": 40,
         "return-type": "json",
         "exec": "pww -w spotify:artist -p None 2> /dev/null",
-        "on-click": "playerctl --player=spotify play-pause 2> /dev/null",
+        "on-click": "pww -t spotify",
         "on-scroll-up": "playerctl --player=spotify next 2> /dev/null",
         "on-scroll-down": "playerctl --player=spotify previous 2> /dev/null"
     },
@@ -57,7 +57,7 @@
         "max-length": 40,
         "return-type": "json",
         "exec": "pww -w spotify:title -p None 2> /dev/null",
-        "on-click": "playerctl --player=spotify play-pause 2> /dev/null",
+        "on-click": "pww -t spotify",
         "on-scroll-up": "playerctl --player=spotify next 2> /dev/null",
         "on-scroll-down": "playerctl --player=spotify previous 2> /dev/null"
     },
