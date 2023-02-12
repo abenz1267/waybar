@@ -1,19 +1,16 @@
 * {
   font-family: "Noto Sans", sans-serif;
   font-size: 16px;
+  color: #dcd7ba;
+  font-weight: 500;
 }
 
 window#waybar {
-  /* background-color: rgba(43, 48, 59, 0.8); */
   background-color: transparent;
-  color: #ffffff;
-  transition-property: background-color;
-  transition-duration: 0.5s;
 }
 
 button {
   border-radius: 0;
-  color: #dcd7ba;
   transition: background-color 300ms ease-in-out;
 }
 
@@ -31,16 +28,15 @@ button {
 .modules-right,
 .modules-left {
   background-color: #2a2a37;
-  color: #dcd7ba;
-  font-weight: 500;
   border: 1px solid #1f1f28;
 }
 
-#clock {
-  padding: 0 10px;
-}
-
-.modules-center {
+#clock,
+.modules-center,
+#custom-spotifyartist,
+#custom-spotifytitle,
+#custom-recording,
+#custom-vpn {
   padding: 0 10px;
 }
 
@@ -66,7 +62,6 @@ button {
 #custom-spotifyartist {
   background: #76946a;
   color: #1f1f28;
-  padding: 0 10px;
   opacity: 1;
   transition-property: opacity;
   transition-duration: 0.25s;
@@ -75,7 +70,6 @@ button {
 #custom-spotifytitle {
   background: #98bb6c;
   color: #1f1f28;
-  padding: 0 10px;
   margin-right: 10px;
   opacity: 1;
   transition-property: opacity;
@@ -95,7 +89,6 @@ button {
   transition-property: opacity;
   transition-duration: 0.25s;
   margin-left: 10px;
-  padding: 0 10px;
 }
 
 #custom-vpn.inactive {
@@ -104,5 +97,4 @@ button {
 
 #custom-recording {
   background-color: #c34043;
-  padding: 0 10px;
 }
