@@ -27,7 +27,7 @@ button {
 #clock,
 .modules-right,
 .modules-left {
-  background-color: #2a2a37;
+  background-color: #16161d;
   border: 1px solid #1f1f28;
 }
 
@@ -56,7 +56,7 @@ button {
 }
 
 #workspaces button.active {
-  background-color: #16161d;
+  background-color: #1f1f28;
 }
 
 #custom-spotifyartist {
